@@ -1,0 +1,23 @@
+{
+  "name": "test-e2e-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpozogm/test-e2e-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpozogm/test-e2e-cypress/issues"
+  },
+  "homepage": "https://github.com/jpozogm/test-e2e-cypress#readme",
+  "dependencies": {
+    "cypress": "^4.9.0"
+  }
+}
