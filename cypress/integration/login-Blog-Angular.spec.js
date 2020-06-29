@@ -18,6 +18,5 @@ it('simple', () => {
     cy.get('.ui-table-tbody > :nth-child(1) > :nth-child(1) > a').click()
     cy.get('#commentContent').type('hola');
     cy.get('.ui-float-label > .ui-button-raised > .ui-button-text').click();
-    cy.get('.p-header > div.ng-star-inserted > .ui-button-danger > .ui-button-text').click()
-
+    cy.get('.p-header > div.ng-star-inserted > .ui-button-danger > .ui-button-text').click();
 })
